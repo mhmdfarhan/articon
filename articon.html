@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Articon | Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- hero -->
+    <div class="hero-main">
+      <!-- navbar -->
+      <div style="position: absolute; top: 0; left: 0; width: 100%;">
+        <div class="flex flex-nowrap flex-row items-center justify-between navbar-main" style="padding: 1.5rem 4rem;">
+          <img src="./assets/logo.svg" alt="">
+          <ul class="flex flex-row items-center justify-center gap-8 ml-8 text-oswald text-white">
+            <li>HOME</li>
+            <li>ABOUT US</li>
+            <li>PRODUCT</li>
+            <li>PROJECT</li>
+            <li>GALLERY</li>
+            <li>FAQ</li>
+            <li>CONTACT</li>
+          </ul>
+          <button class="text-oswald" style="background-color: #FE5208; padding: 12px 30px; border-radius: 100px; color: white;">
+            <i class="fa-brands fa-whatsapp"></i>
+            HUBUNGI KAMI
+          </button>
+        </div>
+      </div>
+  
+      <div class="flex flex-col w-full h-full justify-center items-center">
+        <span style="font-size: 160px; font-family: 'Oswald'; font-weight: 500; color: white">
+          PROFESSIONAL  
+        </span>
+        <span style="font-size: 125px; font-family: 'Oswald'; font-weight: 500; color: transparent; -webkit-text-stroke: 2px white;">ARCHITECTURE SOLUTIONS</span>
+  
+        <div class="flex flex-row items-center justify-between gap-4 mt-8">
+          <div class="flex-1">
+            <span style="font-family: 'Roboto'; font-weight: 400; color: #BDBDBD; font-size: 18px; line-height: 24px;">Solusi kebutuhan Anda akan utilitas cahaya dan udara dalam aplikasi produk GRC Krawangan, GRC Relief, GRC Kubah, GRC Lisplang, Beton Pracetak Dekorati, Dll.</span>
+          </div>
+          <div class="flex-1 flex flex-row items-center justify-center gap-4 text-white">
+            <div class="flex flex-col">
+              <span>50 +</span>
+              <span>CLIENTS</span>
+            </div>
+            <div class="flex flex-col">
+              <span>JOIN OUR TEAM:</span>
+              <div class="flex -space-x-1 overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="inline-block size-6 rounded-full ring-2 ring-gray-900 outline -outline-offset-1 outline-white/10" />
+                <img src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="inline-block size-6 rounded-full ring-2 ring-gray-900 outline -outline-offset-1 outline-white/10" />
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" alt="" class="inline-block size-6 rounded-full ring-2 ring-gray-900 outline -outline-offset-1 outline-white/10" />
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="inline-block size-6 rounded-full ring-2 ring-gray-900 outline -outline-offset-1 outline-white/10" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="position: absolute; bottom: 0; width: 100%; display: flex; justify-content: center; align-items: center;">
+        <div style="position: absolute; bottom: 100px; width: 100%;" class="flex flex-row items-center justify-center gap-4">
+          <button style="background-color: #4A4A4A; padding: 12px 30px; border-radius: 100px; color: white;">Read More</button>
+          <div class="rounded-full w-12 h-12 flex items-center justify-center" style="background-color: #FE5208;">
+            <i class="fa-solid fa-play" style="color: white;"></i>
+          </div>
+        </div>
+        <img src="./assets/person.svg" alt="" style="max-width: 100%;">
+      </div>
+      <!-- double marquee -->
+        <div style="position: absolute; bottom: -180px; left: 0px; width: 100%; z-index: 999; overflow: hidden; height: 200px;">
+          <div class="py-3 marquee-one flex items-center">
+            <span class="text-oswald" style="font-size: 70px; font-weight: 500;">PREMIUM GRC MATERIALS <span style="color: #FFFFFF">*</span> PREMIUM GRC MATERIALS</span>
+          </div>
+          <div class="py-3 marquee-two text-white flex items-center">
+            <span class="text-oswald" style="font-size: 70px; font-weight: 500;">STRUCTURAL STRENGHT <span style="color: #2F2F2F">*</span> STRUCTURAL STRENGHT</span>
+          </div>
+        </div>
+    </div>
+
+    <span></span>
+    <!-- about us -->
+    <div class="flex flex-row items-center justify-between gap-20" style="margin-top: 16rem; padding: 0 4rem; margin-bottom: 8rem;">
+      <div>
+        <img src="./assets/about.svg" alt="">
+      </div>
+      <div class="flex-1 flex flex-col gap-10">
+        <span style="font-family: 'Oswald'; font-weight: 500; font-size: 30px; color: #161616;"><span style="color: #FE5208">*</span>ABOUT US</span>
+        <span style="font-family: 'Oswald'; font-weight: 500; font-size: 60px; line-height: 70px; color: #161616;">PRODUSEN GRC PANEL TERBAIK DI INDONESIA</span>
+        <span style="font-family: 'Roboto'; font-weight: 400; font-size: 18px; line-height: 24px; color: #161616;">
+          GRC Artikon adalah lini bisnis PT. PJ ARTIKON yang fokus sebagai produsen dan supplier produk GRC/GFRC. Kami menangani seluruh proses mulai dari desain, produksi, pemasangan, hingga finishing. Kami memiliki workshop seluas ±3000 m² di Mojoagung, Jombang – Jawa Timur, yang memastikan proses produksi lebih optimal dan kualitas produk tetap terjaga.
+          <br>
+          <br>
+          Dengan konsep “customized products”, kami mewujudkan kebutuhan desain Anda dengan cita rasa estetika tinggi. Sebagai salah satu produsen panel GRC terbaik di Indonesia, kami berkomitmen memberikan kualitas dan pelayanan terbaik tanpa batas.
+        </span>
+        <hr class="my-16 border-t border-[#161616] w-full">
+        <div class="flex flex-row justify-between">
+          <button style="background-color: #4A4A4A; padding: 12px 30px; border-radius: 100px; color: white;">Read More</button>
+          <div class="flex flex-row gap-4">
+            <div class="rounded-full w-12 h-12 flex items-center justify-center" style="background-color: #FE5208;">
+              <i class="fa-brands fa-instagram" style="color: white;"></i>
+            </div>
+            <div class="rounded-full w-12 h-12 flex items-center justify-center" style="background-color: #FE5208;">
+              <i class="fa-brands fa-twitter" style="color: white;"></i>
+            </div>
+            <div class="rounded-full w-12 h-12 flex items-center justify-center" style="background-color: #FE5208;">
+              <i class="fa-brands fa-facebook-f" style="color: white;"></i>
+            </div>
+            <div class="rounded-full w-12 h-12 flex items-center justify-center" style="background-color: #FE5208;">
+              <i class="fa-brands fa-youtube" style="color: white;"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- our clients -->
+    <div style="background-color: #000000; height: 13.125rem; width: 100%; padding: 3.5rem 4.125rem;">
+      <div class="flex flex-row gap-4">
+        <div class="basis-2/12 border-r border-white flex items-center justify-center" style="padding-right: 1.5rem;">
+          <span style="font-family: 'Oswald'; font-weight: 500; font-size: 30px; color: #FFFFFF;">
+            OUR MOST RECENT CLIENTS
+          </span>
+        </div>
+        <div class="basis-10/12 flex flex-row items-center justify-between h-full gap-4">
+          <img src="./assets/client/logo1.svg" alt="">
+          <img src="./assets/client/logo2.svg" alt="">
+          <img src="./assets/client/logo3.svg" alt="">
+          <img src="./assets/client/logo4.svg" alt="">
+          <img src="./assets/client/logo5.svg" alt="">
+          <img src="./assets/client/logo6.svg" alt="">
+          <img src="./assets/client/logo7.svg" alt="">
+          <img src="./assets/client/logo8.svg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- product -->
+    <div style="background-color: #161616; padding: 3.5rem 4.125rem;">
+      <div class="flex flex-row gap-4 mb-8">
+        <div class="basis-4/12">
+          <span style="font-family: 'Oswald'; font-weight: 500; font-size: 30px; color: #FFFFFF;"><span style="color: #FE5208">*</span>ABOUT US</span>
+        </div>
+        <div class="basis-4/12">
+          <span style="font-family: 'Oswald'; font-weight: 500; font-size: 60px; color: #FFFFFF;">GRC ARTIKON PRODUCTS</span>
+        </div>
+        <div class="basis-4/12 flex justify-end items-start">
+          <button style="background-color: #4A4A4A; padding: 12px 30px; border-radius: 100px; color: white;">
+            Read More
+          </button>
+        </div>
+      </div>
+      <div class="grid grid-cols-12 gap-4">
+        <!-- black -->
+        <div class="col-span-4 bg-[#1C1C1C] px-4 py-8 ">
+          <div class="flex flex-row justify-between gap-4">
+            <span class="text-oswald text-white" style="font-size: 30px; font-weight: 500;">
+              GRC <br> KRAWANGAN
+            </span>
+            <div class="rounded-full bg-[#000000] w-12 h-12 flex items-center justify-center">
+              <i class="fa-solid fa-arrow-down" style="color: #FE5208; rotate: -45deg; font-size: xx-large;"></i>
+            </div>
+          </div>
+          <hr class="my-4 border-t border-[#4A4A4A] w-full">
+          <span style="font-family: 'Roboto'; font-weight: 400; color: #BDBDBD; font-size: 18px; line-height: 24px;">
+            GRC krawangan, atau perforated GRC screen, adalah panel GRC (glassfiber reinforced cement) dengan desain berlubang yang berfungsi sebagai ventilasi udara dan cahaya.
+          </span>
+          <img src="./assets/product.svg" class="mt-12 w-full" alt="">
+        </div>
+        <!-- orange -->
+        <div class="col-span-4 bg-[#FE5208] px-4 py-8">
+          <img src="./assets/product.svg" class="mb-12 w-full" alt="">
+          <span style="font-family: 'Roboto'; font-weight: 400; color: #BDBDBD; font-size: 18px; line-height: 24px;">
+            Fungsi GRC relief adalah untuk menghias. Motif GRC relief sangat beragam, meliputi batik, kaligrafi, ornamen geometris dan non-geometris, candi, romawi, alfabet, dan klasik.
+          </span>
+          <hr class="my-4 border-t border-[#4A4A4A] w-full">
+          <div class="flex flex-row justify-between gap-4">
+            <span class="text-oswald text-white" style="font-size: 30px; font-weight: 500;">
+              GRC <br> RELIEF
+            </span>
+            <div class="rounded-full bg-[#000000] w-12 h-12 flex items-center justify-center">
+              <i class="fa-solid fa-arrow-down" style="color: #FE5208; rotate: -45deg; font-size: xx-large;"></i>
+            </div>
+          </div>
+        </div>
+        <!-- black -->
+        <div class="col-span-4 bg-[#1C1C1C] px-4 py-8 ">
+          <div class="flex flex-row justify-between gap-4">
+            <span class="text-oswald text-white" style="font-size: 30px; font-weight: 500;">
+              GRC <br> KRAWANGAN
+            </span>
+            <div class="rounded-full bg-[#000000] w-12 h-12 flex items-center justify-center">
+              <i class="fa-solid fa-arrow-down" style="color: #FE5208; rotate: -45deg; font-size: xx-large;"></i>
+            </div>
+          </div>
+          <hr class="my-4 border-t border-[#4A4A4A] w-full">
+          <span style="font-family: 'Roboto'; font-weight: 400; color: #BDBDBD; font-size: 18px; line-height: 24px;">
+            GRC krawangan, atau perforated GRC screen, adalah panel GRC (glassfiber reinforced cement) dengan desain berlubang yang berfungsi sebagai ventilasi udara dan cahaya.
+          </span>
+          <img src="./assets/product.svg" class="mt-12 w-full" alt="">
+        </div>
+        <!-- orange -->
+        <div class="col-span-4 bg-[#FE5208] px-4 py-8">
+          <img src="./assets/product.svg" class="mb-12 w-full" alt="">
+          <span style="font-family: 'Roboto'; font-weight: 400; color: #BDBDBD; font-size: 18px; line-height: 24px;">
+            Fungsi GRC relief adalah untuk menghias. Motif GRC relief sangat beragam, meliputi batik, kaligrafi, ornamen geometris dan non-geometris, candi, romawi, alfabet, dan klasik.
+          </span>
+          <hr class="my-4 border-t border-[#4A4A4A] w-full">
+          <div class="flex flex-row justify-between gap-4">
+            <span class="text-oswald text-white" style="font-size: 30px; font-weight: 500;">
+              GRC <br> RELIEF
+            </span>
+            <div class="rounded-full bg-[#000000] w-12 h-12 flex items-center justify-center">
+              <i class="fa-solid fa-arrow-down" style="color: #FE5208; rotate: -45deg; font-size: xx-large;"></i>
+            </div>
+          </div>
+        </div>
+        <!-- black -->
+        <div class="col-span-4 bg-[#1C1C1C] px-4 py-8 ">
+          <div class="flex flex-row justify-between gap-4">
+            <span class="text-oswald text-white" style="font-size: 30px; font-weight: 500;">
+              GRC <br> KRAWANGAN
+            </span>
+            <div class="rounded-full bg-[#000000] w-12 h-12 flex items-center justify-center">
+              <i class="fa-solid fa-arrow-down" style="color: #FE5208; rotate: -45deg; font-size: xx-large;"></i>
+            </div>
+          </div>
+          <hr class="my-4 border-t border-[#4A4A4A] w-full">
+          <span style="font-family: 'Roboto'; font-weight: 400; color: #BDBDBD; font-size: 18px; line-height: 24px;">
+            GRC krawangan, atau perforated GRC screen, adalah panel GRC (glassfiber reinforced cement) dengan desain berlubang yang berfungsi sebagai ventilasi udara dan cahaya.
+          </span>
+          <img src="./assets/product.svg" class="mt-12 w-full" alt="">
+        </div>
+        <!-- orange -->
+        <div class="col-span-4 bg-[#FE5208] px-4 py-8">
+          <img src="./assets/product.svg" class="mb-12 w-full" alt="">
+          <span style="font-family: 'Roboto'; font-weight: 400; color: #BDBDBD; font-size: 18px; line-height: 24px;">
+            Fungsi GRC relief adalah untuk menghias. Motif GRC relief sangat beragam, meliputi batik, kaligrafi, ornamen geometris dan non-geometris, candi, romawi, alfabet, dan klasik.
+          </span>
+          <hr class="my-4 border-t border-[#4A4A4A] w-full">
+          <div class="flex flex-row justify-between gap-4">
+            <span class="text-oswald text-white" style="font-size: 30px; font-weight: 500;">
+              GRC <br> RELIEF
+            </span>
+            <div class="rounded-full bg-[#000000] w-12 h-12 flex items-center justify-center">
+              <i class="fa-solid fa-arrow-down" style="color: #FE5208; rotate: -45deg; font-size: xx-large;"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

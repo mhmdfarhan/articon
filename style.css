@@ -1,0 +1,66 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.text-oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.two-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.navbar-main {
+    width: 100%;
+    height: 60px;
+    /* background-color: #333; */
+    z-index: 10;
+}
+.navbar-main:hover {
+    background-color: #555;
+}
+
+.hero-main {
+  position: relative;
+  background-image: url('./assets/hero.svg');
+  background-size: cover;
+  background-position: center;
+  height: 904px;
+  width: 100%;
+  z-index: 0;
+}
+
+ .hero-main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 904px;
+  background: rgba(0,0,0,0.8); /* atur tingkat redup */
+  pointer-events: none;
+  z-index: -1;
+}
+
+.marquee-one {
+  width: 110%;
+  height: 100px;
+  background: #FE5208;
+  /* background-size: contain;
+  animation: marqueeAnimation 10s linear infinite; */
+  rotate: 359deg;
+}
+
+.marquee-two {
+  width: 110%;
+  height: 100px;
+  background: #000000;
+  /* background-size: contain;
+  animation: marqueeAnimation 10s linear infinite; */
+  rotate: 1deg;
+}
