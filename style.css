@@ -35,7 +35,7 @@
   z-index: 0;
 }
 
- .hero-main::before {
+.hero-main::before {
   content: "";
   position: absolute;
   top: 0;
@@ -63,4 +63,27 @@
   /* background-size: contain;
   animation: marqueeAnimation 10s linear infinite; */
   rotate: 1deg;
+}
+
+.achivement-div {
+  position: relative;
+  background-image: url('./assets/achivement.svg');
+  background-size: cover;
+  background-position: center;
+  height: 508px;
+  width: 100%;
+  z-index: 3;
+  padding: 3.5rem 4.125rem;
+}
+
+.achivement-div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 508px;
+  background: rgba(0,0,0,0.8); /* atur tingkat redup */
+  pointer-events: none;
+  z-index: -2;
 }
