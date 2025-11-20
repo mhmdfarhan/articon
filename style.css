@@ -8,6 +8,13 @@
     font-family: 'Oswald', sans-serif;
 }
 
+.text-footer {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
 .two-lines {
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -86,4 +93,38 @@
   background: rgba(0,0,0,0.8); /* atur tingkat redup */
   pointer-events: none;
   z-index: -2;
+}
+
+ /* Mengganti ikon saat <details> terbuka */
+details[open] summary i {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+summary i {
+  transition: transform 0.3s ease;
+}
+
+/* Hilangkan default arrow bawaan browser */
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Background berubah saat accordion terbuka */
+details summary {
+  background-color: #161616;
+  transition: background-color 0.3s ease;
+}
+
+details[open] summary {
+  background-color: #FE5208;
+}
+
+details summary div {
+  background-color: #FE5208;
+  transition: background-color 0.3s ease;
+}
+
+details[open] summary div {
+  background-color: #161616;
 }
