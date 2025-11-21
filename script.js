@@ -18,7 +18,7 @@ const tl = gsap.timeline({
     trigger: ".s2",
     start: "top center",     // ketika section2 mencapai tengah layar
     end: "bottom center",
-    markers: true,           // tampilkan marker
+    // markers: true,           // tampilkan marker
     scrub: 1,                // ikuti scroll
   }
 });
