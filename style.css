@@ -128,3 +128,16 @@ details summary div {
 details[open] summary div {
   background-color: #161616;
 }
+
+.stb_line_single {
+  position: relative;
+  white-space: nowrap;
+  padding: 0;
+  will-change: transform;
+}
+.stb-item {
+  padding: 0;
+  font-size: 6.4rem;
+  display: inline-block;
+  margin-right: 1rem;
+}
